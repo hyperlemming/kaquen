@@ -1,0 +1,14 @@
+/dts-v1/;
+#include <dt-bindings/interrupt-controller/arm-gic.h>
+
+&gpio0 {
+    status = "okay";
+    pinctrl-0 = <&p0_06>;
+    pinctrl-names = "default";
+};
+
+&gpio1 {
+    status = "okay";
+    pinctrl-0 = <&p0_08>;
+    pinctrl-names = "default";
+};
